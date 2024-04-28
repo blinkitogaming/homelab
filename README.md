@@ -1,3 +1,2 @@
 # Homelab de Blinkito
-![homelab de blinkito](/IMG_6704.JPG)
-
+![homelab de blinkito](https://imgur.com/gallery/31dAVgq)
