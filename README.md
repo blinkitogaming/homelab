@@ -1,7 +1,6 @@
 # Homelab de Blinkito
 
-[![Bienvenid@s](https://imgur.com/a/8K9rEZi)](https://github.com/blinkitogaming)
-[Imgur](https://imgur.com/p1wpCAP)
+[![Bienvenid@s](https://imgur.com/p1wpCAP)](https://github.com/blinkitogaming)
 
 **¡Bienvenid@!**
 
