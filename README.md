@@ -1,7 +1,5 @@
 # Homelab de Blinkito
 
-[![Bienvenid@s](https://imgur.com/p1wpCAP)](https://github.com/blinkitogaming)
-
 **¡Bienvenid@!**
 
 **Soy Blinkito, aunque mi nombre real es Víctor. Soy un apasionado de la tecnología, sobretodo IoT y redes y me gustaría compartir contigo esta gran afición.**
