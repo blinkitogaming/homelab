@@ -12,10 +12,10 @@ En este repositorio encontrarás toda la documentación y archivos de configurac
 Dado que es mi documentación personal, no acepto contribuciones, pero siempre puedes crear un fork del repositorio y usarlo como tu propia documentación.
 
 ## Otros recursos
-- (Starship-and-ZSH-shell---Linux),[https://github.com/blinkitogaming/Starship-and-ZSH-shell---Linux] - Mi configuración para ZSH
-- (cheat-sheets),[https://github.com/blinkitogaming/cheat-sheets] - Trucos recurrentes para varios SO y/o aplicaciones.
-- (WOL-bash-script),[https://github.com/blinkitogaming/WOL-bash-script] - Un simple script para monitorear servidores o equipos en LAN.
-- (Backup-plan),[https://github.com/blinkitogaming/backup-plan] - Mi configuración de sistema de copias de seguridad
+- [Starship-and-ZSH-shell---Linux],(https://github.com/blinkitogaming/Starship-and-ZSH-shell---Linux) - Mi configuración para ZSH
+- [cheat-sheets],(https://github.com/blinkitogaming/cheat-sheets) - Trucos recurrentes para varios SO y/o aplicaciones.
+- [WOL-bash-script],(https://github.com/blinkitogaming/WOL-bash-script) - Un simple script para monitorear servidores o equipos en LAN.
+- [Backup-plan],(https://github.com/blinkitogaming/backup-plan) - Mi configuración de sistema de copias de seguridad
 
 ### ¿Cómo llegué aquí?
 Para empezar, digamos que no soy ningún experto, todo lo que hago aquí es fruto de mi propia experiencia y de aprender a base de fallos y errores. Aunque creo que cuando cometes un error es cuando mejor aprendes.
@@ -64,6 +64,6 @@ La configuración de almacenamiento está distribuida en 3 discos como almacenam
 
 Y un SSD de caché en el que están ubicados los archivos e imágenes de Docker, las bases de datos y el caché del sistema de archivos del array principal, al que se mueven cada noche los archivos liberando espacio en el SSD.
 
-Por supuesto, todo con su correspondiente backup (puedes consultar más información en mi repositorio (Backup-plan),[https://github.com/blinkitogaming/backup-plan]).
+Por supuesto, todo con su correspondiente backup (puedes consultar más información en mi repositorio [Backup-plan],(https://github.com/blinkitogaming/backup-plan)).
 
 Además de este servidor también tengo un **Lenovo Thinkcentre M910q** con un i5-6600T y 16GB de RAM DDR4-2400Mhz en el que tengo instalado Proxmox y en el que actualmente tengo algunos servicios más corriendo separados del servidor principal. Con pensamiento de más adelante formar un clúster de 3 servidores Thinkcentre similares.
