@@ -6,7 +6,9 @@
 
 En este repositorio encontrarás toda la documentación y archivos de configuración que uso en mi **Homelab**. También encontrarás notas, setups, configuración para la infraestructura, aplicaciones, redes y más.
 
+
 >Te en cuenta que la configuración de aplicaciones y servicios puede cambiar con el tiempo. Aunque hago todo lo que puedo para mantener la documentación lo más actualizada posible puede que no siempre sea así.
+
 
 ## Contribución
 Dado que es mi documentación personal, no acepto contribuciones, pero siempre puedes crear un fork del repositorio y usarlo como tu propia documentación.
