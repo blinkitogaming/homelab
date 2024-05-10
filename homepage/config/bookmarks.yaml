@@ -1,0 +1,26 @@
+---
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/blinkitogaming
+          icon: si-github-#FFFFFF
+    - Gitlab:
+        - abbr: GL
+          href: http://192.168.0.18/
+          icon: si-gitlab-#FFFFFF
+
+- Email:
+    - Outlook:
+        - abbr: OU
+          href: https://outlook.live.com/mail/
+          icon: si-microsoftoutlook-#FFFFFF
+    - Gmail:
+        - abbr: GM
+          href: https://mail.google.com/mail/
+          icon: si-gmail-#FFFFFF
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+          icon: si-youtube-#FFFFFF

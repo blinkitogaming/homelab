@@ -1,0 +1,171 @@
+---
+- Networking:
+    - Router:
+        href: http://{{HOMEPAGE_VAR_IP}}1/
+        description: Router Movistar
+        icon: router.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}1/
+        statusStyle: 'dot'
+    - Switch:
+        href: http://{{HOMEPAGE_VAR_IP}}2/
+        description: D-Link DGS-1224T
+        icon: d-link.png
+        ping: http://{{HOMEPAGE_VAR_IP}}2/
+        statusStyle: 'dot'
+    - AdGuard 1:
+        href: http://{{HOMEPAGE_VAR_IP}}15/
+        description: Adblocker y DNS local
+        icon: adguard-home.png
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}15/
+        statusStyle: 'dot'
+        widget:
+          type: adguard
+          url: http://{{HOMEPAGE_VAR_IP}}15
+          username: {{HOMEPAGE_VAR_ADGUARD_USERNAME}}
+          password: {{HOMEPAGE_VAR_ADGUARD_PASSWORD}}
+    - AdGuard 2:
+        href: http://{{HOMEPAGE_VAR_IP}}16:280/
+        description: Adblocker y DNS local
+        icon: adguard-home.png
+        ping: http://{{HOMEPAGE_VAR_IP}}16
+        statusStyle: 'dot'
+
+    - Cloudflare:
+        href: https://dash.cloudflare.com/login
+        description: Cloudflare panel
+        icon: cloudflare.svg
+        siteMonitor: https://dash.cloudflare.com/login
+        statusStyle: 'dot'
+    - Tailscale:
+        href: https://login.tailscale.com/admin/machines
+        description: Panel de control Tailscale
+        icon: tailscale.svg
+        siteMonitor: https://login.tailscale.com/admin/machines
+        statusStyle: 'dot'
+
+- Servidores y datos:
+    - Blinkserver:
+        href: http://{{HOMEPAGE_VAR_IP}}11/
+        description: unRaid
+        icon: unraid.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11/
+        statusStyle: 'dot'
+    - Proxmox:
+        href: https://{{HOMEPAGE_VAR_IP}}12:8006/
+        description: PVE01
+        icon: proxmox.png
+        siteMonitor: https://{{HOMEPAGE_VAR_IP}}12:8006/
+        statusStyle: 'dot'
+        widget:
+          type: proxmox
+          url: https://{{HOMEPAGE_VAR_IP}}12:8006
+          username: {{HOMEPAGE_VAR_PROXMOX_USERNAME}}
+          password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+    - phpMyAdmin:
+        href: http://{{HOMEPAGE_VAR_IP}}11:8080/
+        description: BBDD
+        icon: phpmyadmin.png
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:8080/
+        statusStyle: 'dot'
+    - Mainsail:
+        href: http://{{HOMEPAGE_VAR_IP}}17/
+        description: BK 3D
+        icon: /images/BK_3D_logo_blanco.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}17/
+        statusStyle: 'dot'
+        widget:
+          type: moonraker
+          url: http://{{HOMEPAGE_VAR_IP}}17
+
+- Administración:
+    - Portainer:
+        href: http://{{HOMEPAGE_VAR_IP}}16:9000/
+        description: PVE01/vm-103
+        icon: portainer.svg
+        ping: http://{{HOMEPAGE_VAR_IP}}16
+        statusStyle: 'dot'
+    - File Browser:
+        href: http://{{HOMEPAGE_VAR_IP}}16:8081/
+        description: Explorador de archivos Portainer
+        icon: filebrowser.svg
+    - Portainer Gitlab Runner:
+        href: http://{{HOMEPAGE_VAR_IP}}19:9000/
+        description: PVE01/vm-106
+        icon: portainer.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}19:9000/
+        statusStyle: 'dot'
+
+- Backups:
+    - Duplicati:
+        href: http://{{HOMEPAGE_VAR_IP}}11:8200/
+        description: Backup manager
+        icon: duplicati.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:8200/
+        statusStyle: 'dot'
+    - Syncthing 1:
+        href: http://{{HOMEPAGE_VAR_IP}}11:8384/
+        description: Blinkserver
+        icon: syncthing.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:8384/
+        statusStyle: 'dot'
+    - Syncthing 2:
+        href: http://{{HOMEPAGE_VAR_IP}}16:8384/
+        description: Proxmox PVE01/Portainer
+        icon: syncthing.svg
+        ping: http://{{HOMEPAGE_VAR_IP}}16
+        statusStyle: 'dot'
+
+- Seguridad:
+    - Cámara entrada:
+        href: http://{{HOMEPAGE_VAR_IP}}21/
+        description: Panel de control cámara entrada
+        icon: /images/camera.png
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}21/
+        statusStyle: 'dot'
+    - Frigate:
+        href: http://{{HOMEPAGE_VAR_IP}}11:5000/
+        description: NVR
+        icon: frigate.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:5000/
+        statusStyle: 'dot'
+
+- IoT:
+    - Home Assistant:
+        href: http://{{HOMEPAGE_VAR_IP}}11:8123/
+        description: Centro domótico
+        icon: home-assistant.png
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:8123/
+        statusStyle: 'dot'
+    - ESPHome:
+        href: http://{{HOMEPAGE_VAR_IP}}11:6052/
+        description: Programación ESP32
+        icon: esphome.png
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:6052/
+        statusStyle: 'dot'
+        widget:
+          type: esphome
+          url: http://{{HOMEPAGE_VAR_IP}}11:6052
+    - Zigbee2MQTT:
+        href: http://{{HOMEPAGE_VAR_IP}}11:9442/
+        description: Zigbee devices
+        icon: zigbee2mqtt.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:9442/
+        statusStyle: 'dot'
+
+- Multimedia:
+    - Plex:
+        href: http://{{HOMEPAGE_VAR_IP}}11:32400/
+        description: Plex Media Server
+        icon: plex.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:32400/
+        statusStyle: 'dot'
+    - Deluge:
+        href: http://{{HOMEPAGE_VAR_IP}}11:8112/
+        description: Torrents
+        icon: deluge.svg
+        siteMonitor: http://{{HOMEPAGE_VAR_IP}}11:8112/
+        statusStyle: 'dot'
+        widget:
+          type: deluge
+          url: http://{{HOMEPAGE_VAR_IP}}11:8112
+          password: {{HOMEPAGE_VAR_DELUGE_PASSWORD}}

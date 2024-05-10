@@ -1,0 +1,25 @@
+---
+title: Blinklab Home
+headerStyle: boxed
+
+background:
+  image: /images/background2.jpg
+  blur: xl
+  brightness: 90
+  opacity: 60
+
+cardblur: sm
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+layout:
+  Networking:
+    icon: mdi-network-#FFFFFF
+  Servidores y datos:
+    icon: mdi-server-#FFFFFF
+  Administración:
+    icon: mdi-auto-fix-#FFFFFF
+  Seguridad:
+    icon: mdi-cctv-#FFFFFF
